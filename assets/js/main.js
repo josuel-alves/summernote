@@ -1,6 +1,5 @@
-//Editor
 jQuery(document).ready(function () {
-    jQuery('#summernote').summernote({
+    jQuery('#summernote, #summernote1, #summernote2, #summernote3').summernote({
         lang: 'pt-BR',
         toolbar: [
             // [groupName, [list of button]]
@@ -14,43 +13,7 @@ jQuery(document).ready(function () {
         ],
         height: "300px"
     });
-/*
-    jQuery('#summernote2').summernote({
-        lang: 'pt-BR',
-        toolbar: [
-            // [groupName, [list of button]]
-            ['style', ['bold', 'italic', 'underline', 'clear']],
-            ['fontsize', ['fontsize']],
-            ['link', ['link']],
-            ['color', ['color']],
-            ['para', ['ul', 'ol', 'paragraph']],
-            ['view', ['codeview']],
-            ['height', ['height']]
-        ],
-
-        height: "300px"
-
-    });
-
-    jQuery('#summernote3').summernote({
-        lang: 'pt-BR',
-        toolbar: [
-            // [groupName, [list of button]]
-            ['style', ['bold', 'italic', 'underline', 'clear']],
-            ['fontsize', ['fontsize']],
-            ['link', ['link']],
-            ['color', ['color']],
-            ['para', ['ul', 'ol', 'paragraph']],
-            ['view', ['codeview']],
-            ['height', ['height']]
-        ],
-
-        height: "300px"
-
-    });
-*/
 });
-
 (function ($) {
     $.extend(
             $.summernote.lang,
